@@ -28,9 +28,8 @@
 //  --------------------------------------------------------------------------
 
 using System.Collections.Generic;
-using Alis.Core.Aspect.Data.Json;
 
-namespace Alis.Extension.Network.Sample.SimpleChat.Client
+namespace Alis.Sample.Network.SimpleChat.Client
 {
     /// <summary>
     ///     Chat message structure (shared with server)

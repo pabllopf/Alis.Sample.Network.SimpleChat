@@ -30,7 +30,7 @@
 using System.Collections.Generic;
 using Alis.Core.Aspect.Data.Json;
 
-namespace Alis.Extension.Network.Sample.SimpleChat.Server
+namespace Alis.Sample.Network.SimpleChat.Server
 {
     /// <summary>
     ///     Chat message structure
