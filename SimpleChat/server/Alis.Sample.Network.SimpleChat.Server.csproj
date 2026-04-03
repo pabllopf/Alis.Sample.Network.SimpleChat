@@ -14,6 +14,7 @@
         <DebugType>full</DebugType>
         <DebugSymbols>true</DebugSymbols>
         <Optimize>false</Optimize>
+        <NoAutoGenerateFiles>true</NoAutoGenerateFiles>
     </PropertyGroup>
 
     <!-- Configuración Release -->
