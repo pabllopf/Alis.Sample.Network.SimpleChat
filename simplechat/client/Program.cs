@@ -33,7 +33,7 @@ using Alis.Core.Aspect.Logging;
 using Alis.Extension.Network.Client;
 using Alis.Extension.Network.Core;
 
-namespace Alis.Extension.Network.Sample.SimpleChat.Client
+namespace Alis.Sample.Network.SimpleChat.Client
 {
     /// <summary>
     ///     Simple chat client sample

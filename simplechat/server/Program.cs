@@ -34,7 +34,7 @@ using Alis.Core.Aspect.Logging;
 using Alis.Extension.Network.Core;
 using Alis.Extension.Network.Server;
 
-namespace Alis.Extension.Network.Sample.SimpleChat.Server
+namespace Alis.Sample.Network.SimpleChat.Server
 {
     /// <summary>
     ///     Simple chat server sample
