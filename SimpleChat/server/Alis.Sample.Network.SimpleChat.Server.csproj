@@ -22,8 +22,8 @@
 
 
     <ItemGroup>
-        <PackageReference Include="Alis.Extension.Network" Version="1.0.1" />
-        <PackageReference Include="Alis" Version="1.0.1" />
+        <PackageReference Include="Alis.Extension.Network" Version="*" />
+        <PackageReference Include="Alis" Version="*" />
     </ItemGroup>
     
 </Project>
