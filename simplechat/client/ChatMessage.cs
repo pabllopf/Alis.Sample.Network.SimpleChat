@@ -30,10 +30,10 @@
 using System.Collections.Generic;
 using Alis.Core.Aspect.Data.Json;
 
-namespace Alis.Extension.Network.Sample.SimpleChat.Server
+namespace Alis.Extension.Network.Sample.SimpleChat.Client
 {
     /// <summary>
-    ///     Chat message structure
+    ///     Chat message structure (shared with server)
     /// </summary>
     public class ChatMessage : IJsonSerializable
     {

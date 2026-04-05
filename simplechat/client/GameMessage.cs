@@ -5,7 +5,7 @@
 //                              ░█─░█ ░█▄▄█ ▄█▄ ░█▄▄▄█
 // 
 //  --------------------------------------------------------------------------
-//  File:ChatMessage.cs
+//  File:GameMessage.cs
 // 
 //  Author:Pablo Perdomo Falcón
 //  Web:https://www.pabllopf.dev/
@@ -30,36 +30,31 @@
 using System.Collections.Generic;
 using Alis.Core.Aspect.Data.Json;
 
-namespace Alis.Extension.Network.Sample.SimpleChat.Server
+namespace Alis.Extension.Network.Sample.SimpleChat.Client
 {
     /// <summary>
-    ///     Chat message structure
+    ///     Simple message type for testing
     /// </summary>
-    public class ChatMessage : IJsonSerializable
+    public class GameMessage : IJsonSerializable
     {
         /// <summary>
-        ///     Gets or sets sender name
+        ///     Gets or sets the value of the message type
         /// </summary>
-        public string SenderName { get; set; }
+        public string MessageType { get; set; }
 
         /// <summary>
-        ///     Gets or sets message content
+        ///     Gets or sets the value of the content
         /// </summary>
         public string Content { get; set; }
 
         /// <summary>
-        ///     Gets or sets timestamp
+        ///     Gets the serializable properties
         /// </summary>
-        public string Timestamp { get; set; }
-
-        /// <summary>
-        ///     Gets serializable properties
-        /// </summary>
+        /// <returns>A system collections generic enumerable of string and string</returns>
         public IEnumerable<(string, string)> GetSerializableProperties()
         {
-            yield return (nameof(SenderName), SenderName);
+            yield return (nameof(MessageType), MessageType);
             yield return (nameof(Content), Content);
-            yield return (nameof(Timestamp), Timestamp);
         }
     }
 }

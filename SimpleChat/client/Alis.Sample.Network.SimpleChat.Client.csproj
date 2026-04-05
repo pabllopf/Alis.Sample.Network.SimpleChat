@@ -6,6 +6,7 @@
 
         <Configurations>Debug;Release</Configurations>
         <Platforms>AnyCPU;x64;arm64;x86;WebAssembly</Platforms>
+        <NoAutoGenerateFiles>true</NoAutoGenerateFiles>
     </PropertyGroup>
 
     <!-- Configuración Debug -->
@@ -14,7 +15,6 @@
         <DebugType>full</DebugType>
         <DebugSymbols>true</DebugSymbols>
         <Optimize>false</Optimize>
-        <NoAutoGenerateFiles>true</NoAutoGenerateFiles>
     </PropertyGroup>
 
     <!-- Configuración Release -->
